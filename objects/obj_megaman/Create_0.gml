@@ -10,3 +10,6 @@ fallspd = 2;
 pulo = false;
 jumpheight = 128;
 jumpFrame = 0;
+
+
+hp = 50

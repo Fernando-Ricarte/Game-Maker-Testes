@@ -54,3 +54,16 @@ if (pulo == false){
 	}
 }
 
+if mouse_check_button_pressed(mb_left){
+	var obj = instance_create_depth(x,y,-10,obj_shoot);
+	obj.dir = image_xscale;
+}
+
+if(place_meeting(x,y,obj_slime)){
+	hp--;
+	if(hp <= 0){
+		show_message("YOU DIED! ")
+		room_restart();
+	}
+}
+
