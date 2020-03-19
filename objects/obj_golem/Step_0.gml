@@ -23,3 +23,15 @@ if(dir == -1){
 		image_xscale = 1;
 	}        
  }
+ 
+ var colid = instance_place(x,y,obj_shoot);
+
+if(colid)
+{
+	with (colid) instance_destroy();
+	hp--;
+	
+	if(hp == 0){
+		instance_destroy()
+	}
+}

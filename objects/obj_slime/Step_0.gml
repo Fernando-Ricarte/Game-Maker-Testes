@@ -29,6 +29,7 @@ var colid = instance_place(x,y,obj_shoot);
 
 if(colid)
 {
+	
 	with (colid) instance_destroy();
 	hp--;
 	
@@ -36,5 +37,19 @@ if(colid)
 		instance_destroy()
 	}
 }
+
+/*
+if(place_meeting(x,y,obj_shoot)){
+	time = 50
+	while(time > 0){
+	
+	 sprite_index = spr_hitmark;
+	 time--;
+	}
+	if (time <= 0){
+		layer_sprite_alpha(spr_hitmark,100);
+	}
+}
+*/
 
 
