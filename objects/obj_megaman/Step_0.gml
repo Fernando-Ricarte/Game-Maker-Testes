@@ -1,4 +1,4 @@
-  /// @description Insert description here
+   /// @description Insert description here
 // You can write your code in this editor
 // && place_free(x-spd,y) pode ser usado para colisão
 
@@ -59,14 +59,20 @@ if (pulo == false){
 	}
 }
 
+
+/*sistema de tiro
 if mouse_check_button_pressed(mb_left){
 	var obj = instance_create_depth(x,y,-10,obj_shoot);
 	obj.dir = image_xscale;
+	audio_play_sound(snd_shoot,0,false)
+	
 }
+*/
 
 if(place_meeting(x,y,obj_slime) || place_meeting(x,y,obj_golem)){
 	hp--;
 	if(hp <= 0){
+		audio_play_sound(snd_death,0,false)
 		show_message("YOU DIED! ")
 		room_restart();
 	}

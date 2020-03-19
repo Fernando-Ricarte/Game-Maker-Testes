@@ -1,4 +1,4 @@
-  /// @description Insert description here
+   /// @description Insert description here
 // You can write your code in this editor
 
 //gravidade do inimigo
@@ -28,6 +28,7 @@ if(dir == -1){
 
 if(colid)
 {
+	audio_play_sound(snd_hit,0,false);
 	with (colid) instance_destroy();
 	hp--;
 	
