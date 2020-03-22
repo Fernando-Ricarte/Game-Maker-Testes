@@ -1,5 +1,5 @@
 {
-    "id": "88d864c4-98e0-4ddb-853a-8795d48ad556",
+    "id": "50ad21dc-34e6-4a42-90e6-2d08e24b9b9c",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_shoot",
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.4
+    "volume": 0.53
 }
