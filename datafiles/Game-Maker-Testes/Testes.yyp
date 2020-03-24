@@ -359,14 +359,6 @@
             }
         },
         {
-            "Key": "80189142-1f7c-461c-895a-d370b4d50e2e",
-            "Value": {
-                "id": "e3fc7d7e-377d-461d-88b7-a5d9266df8ad",
-                "resourcePath": "views\\80189142-1f7c-461c-895a-d370b4d50e2e.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "818a709c-c762-45c8-a369-3851e23fd1e1",
             "Value": {
                 "id": "b55b0d36-4a26-41e0-a685-a6afc48dea48",
@@ -439,14 +431,6 @@
             }
         },
         {
-            "Key": "a0e4f1e6-c3f4-4230-b867-da2705d8ac61",
-            "Value": {
-                "id": "50c378c5-92a8-442e-8487-56a700393fa3",
-                "resourcePath": "sounds\\snd_LuaCongeladaFodase\\snd_LuaCongeladaFodase.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "a216c45f-ae8f-4c83-a298-063c1e7b60e7",
             "Value": {
                 "id": "f77b5cb4-9399-4267-a659-bd1af6a15ee0",
@@ -476,14 +460,6 @@
                 "id": "c733e8b0-f932-4179-9f98-67e9eed3e7f4",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "aa6ea425-58c3-4125-aa20-b83582fdc124",
-            "Value": {
-                "id": "45fe06bd-f806-43ae-ae92-090035d6d67b",
-                "resourcePath": "sounds\\snd_HolyDiver\\snd_HolyDiver.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -579,14 +555,6 @@
             "Value": {
                 "id": "cb5c1eb0-4656-4686-a230-872d71e9119e",
                 "resourcePath": "views\\d87fc58a-ed58-4b35-9935-4164f4f85c90.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "dafa21dd-817c-4cdd-8f80-85c9df1238ac",
-            "Value": {
-                "id": "173dcdbc-cbaa-4175-92b0-aa75c05bb922",
-                "resourcePath": "views\\dafa21dd-817c-4cdd-8f80-85c9df1238ac.yy",
                 "resourceType": "GMFolder"
             }
         },
