@@ -1,4 +1,4 @@
- /// @description Insert description here
+  /// @description Insert description here
 // You can write your code in this editor
 
 
@@ -22,4 +22,4 @@ draw_rectangle(xx,yy,ww,hh,1);
 
 
 draw_set_font(fnt_UI);
-draw_text(75,14,string(hp));
+draw_text(68,14,string(hp) + "/100");

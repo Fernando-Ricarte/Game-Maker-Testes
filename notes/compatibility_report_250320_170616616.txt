@@ -1,0 +1,2 @@
+Font Font_Menu has been converted to font family Impact (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\Font_Menu\Font_Menu.gms1.png
