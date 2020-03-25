@@ -70,15 +70,19 @@ if mouse_check_button_pressed(mb_left){
 */
 
 if(place_meeting(x,y,obj_slime) || place_meeting(x,y,obj_golem)){
-	hp--;
-	if(hp <= 0){
-		audio_play_sound(snd_death,0,false)
-		show_message("YOU DIED! ")
-		room_restart();
+	if(random(100) < 10){
+		hp--;
+		audio_play_sound(snd_shoot,0,false);//mudar som de hit
 	}
 }
+if(hp == 0){
+		audio_play_sound(snd_death,2,false);
+		show_message("YOU DIED! ");
+		room_restart();
+	}
 
 if(place_meeting(x,y+1,obj_instant_kill)){
+	audio_play_sound(snd_death,2,false);
 	show_message("YOU DIED!!");
 	room_restart();
 }

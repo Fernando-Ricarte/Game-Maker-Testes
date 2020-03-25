@@ -12,4 +12,4 @@ jumpheight = 128;
 jumpFrame = 0;
 
 
-hp = 50
+hp = 100;

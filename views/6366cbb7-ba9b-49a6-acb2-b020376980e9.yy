@@ -5,7 +5,8 @@
     "name": "6366cbb7-ba9b-49a6-acb2-b020376980e9",
     "children": [
         "81d0fe14-5f04-439e-87b3-ba6a761cb1e9",
-        "362d03e9-722a-4dc6-a2d3-298180f202b7"
+        "362d03e9-722a-4dc6-a2d3-298180f202b7",
+        "71486391-48f3-4a42-83ad-cc922162a677"
     ],
     "filterType": "GMSprite",
     "folderName": "Sheets",
